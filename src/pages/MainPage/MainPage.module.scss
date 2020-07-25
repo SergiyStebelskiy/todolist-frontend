@@ -1,0 +1,12 @@
+.mainPage {
+	width: 100%;
+	min-height: 100vh;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 4vh 0;
+	.tasks {
+		margin-top: 16px;
+	}
+}

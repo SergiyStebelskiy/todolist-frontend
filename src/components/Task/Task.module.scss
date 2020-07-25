@@ -1,0 +1,22 @@
+.task {
+	width: 350px;
+	border-radius: 4px;
+	position: relative;
+	.title {
+		cursor: text;
+		flex: 0 1 auto;
+	}
+	.deleteBtn {
+		position: absolute;
+		top: 6px;
+		right: 6px;
+		cursor: pointer;
+		min-width: auto;
+		display: none;
+	}
+	&:hover {
+		.deleteBtn {
+			display: block;
+		}
+	}
+}

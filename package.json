@@ -10,6 +10,7 @@
 		"@testing-library/user-event": "^7.1.2",
 		"axios": "^0.19.2",
 		"classnames": "^2.2.6",
+		"create-react-app": "^3.4.1",
 		"node-sass": "^4.14.1",
 		"prop-types": "^15.7.2",
 		"react": "^16.13.1",
@@ -28,8 +29,16 @@
 		"extends": "react-app"
 	},
 	"browserslist": {
-		"production": [ ">0.2%", "not dead", "not op_mini all" ],
-		"development": [ "last 1 chrome version", "last 1 firefox version", "last 1 safari version" ]
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
 	},
 	"engines": {
 		"node": "v12.18.1",
